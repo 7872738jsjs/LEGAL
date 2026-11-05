@@ -21,13 +21,13 @@
     "_CONFIG_VERSION":"open-ticket-v4.2.2",
     
     /* Load the bot token from .env or the "token" field below. Leave "token" empty if using "tokenFromENV". */
-    "token":"INSERT_BOT_TOKEN",
+    "token":"MTU2NzYyMjAxNDYzNjY1NDY1Mg.Gu3bfp.wST3-ElbAgHZ-DeFaZuiJ0UjdpzNnuPtd35lOo",
     "tokenFromENV":false,
     
     "mainColor":"#f8ba00", //Hex color used in most embeds
     "language":"english", //Visit README.md for list
     "prefix":"!ticket ", //Prefix used in text commands
-    "serverId":"DISCORD_SERVER_ID",
+    "serverId":"1567623383582114004",
     "globalAdmins":["DISCORD_ROLE_ID"], //Have access to all commands
     
     /* Enable/disable text or slash commands. */
@@ -38,15 +38,15 @@
     "status":{
         "enabled":true,
         "type":"listening", //Choices: listening, watching, playing, custom
-        "mode":"online", //Choices: online, invisible, idle, dnd
-        "text":"/help",
-        "state":"" //Additional text (Leave empty to disable)
+        "mode":"idle", //Choices: online, invisible, idle, dnd
+        "text":"LEGAL ON TOP",
+        "state":"legal on top" //Additional text (Leave empty to disable)
     },
     
     /* Send ticket logs to a channel or in DM of the ticket creator. */
     "logs":{
-        "enabled":false,
-        "channel":"DISCORD_CHANNEL_ID",
+        "enabled":true,
+        "channel":"1147665618003304549",
         "logMessages":{
             "creation":{"dm":false,"logs":true},
             "closing":{"dm":false,"logs":true},
