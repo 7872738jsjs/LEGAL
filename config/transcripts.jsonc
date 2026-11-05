@@ -11,16 +11,16 @@
  */
 {
     "general":{
-        "enabled":false,
+        "enabled":true,
         
         /* Choose which users and channel get the generated transcript. */
-        "enableChannel":false,
-        "enableCreatorDM":false,
-        "enableParticipantDM":false,
-        "enableActiveAdminDM":false,
-        "enableEveryAdminDM":false,
+        "enableChannel":true,
+        "enableCreatorDM":true,
+        "enableParticipantDM":true,
+        "enableActiveAdminDM":true,
+        "enableEveryAdminDM":true,
         
-        "channel":"DISCORD_CHANNEL_ID", //Where to send transcripts. Leave empty when disabled.
+        "channel":"1147665618003304549", //Where to send transcripts. Leave empty when disabled.
         "mode":"html" //The type of transcript to use. Choices: html, text
     },
     "embedSettings":{
