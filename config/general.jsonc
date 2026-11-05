@@ -28,7 +28,7 @@
     "language":"english", //Visit README.md for list
     "prefix":"!ticket ", //Prefix used in text commands
     "serverId":"1136030054271422534",
-    "globalAdmins":["1136035491880382615"], //Have access to all commands
+    "globalAdmins":["1035160059447091291"], //Have access to all commands
     
     /* Enable/disable text or slash commands. */
     "slashCommands":true,
@@ -150,7 +150,7 @@
     "permissions":{
         "help":"everyone",
         "panel":"admin",
-        "ticket":"1136035491880382615",
+        "ticket":"1142220908942073918",
         "close":"everyone",
         "delete":"admin",
         "reopen":"everyone",
