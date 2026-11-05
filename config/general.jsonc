@@ -124,13 +124,13 @@
         /* Move closed tickets to a separate category. */
         "closedCategory":{
             "enabled":false,
-            "categoryId":""
+            "categoryId":"1147665601473560746"
         },
         
         /* Create tickets in a backup category when the original category exceeds 50 channels. */
         "backupCategory":{
             "enabled":false,
-            "categoryId":""
+            "categoryId":"1147665601473560746"
         },
         
         /* Move claimed tickets to a matching category of the user that claimed the ticket. Set to empty list [] to disable. */
@@ -150,7 +150,7 @@
     "permissions":{
         "help":"everyone",
         "panel":"admin",
-        "ticket":"1142220908942073918",
+        "ticket":"none",
         "close":"everyone",
         "delete":"admin",
         "reopen":"everyone",
