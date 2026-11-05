@@ -25,15 +25,15 @@
         /* Add up to 5 modal questions IDs from (config/questions.jsonc). */
         "questions":["example-question-1","example-question-2"],
         
-        "ticketAdmins":["DISCORD_ROLE_ID"],
-        "readonlyAdmins":["DISCORD_ROLE_ID"],
+        "ticketAdmins":["1136035491880382615"],
+        "readonlyAdmins":["1142220908942073918"],
         "allowCreationByBlacklistedUsers":false,
         
         "channel":{
             /* Configure the name, topic and category of the ticket option. */
             "prefix":"question-",
             "suffix":"user-name", //Choices: user-name, user-id, random-number, random-hex, counter-dynamic, counter-fixed
-            "category":"DISCORD_CATEGORY_ID", //Leave empty to disable
+            "category":"1147665601473560746", //Leave empty to disable
             "topic":"The ticket topic shown in the channel." //Leave empty to disable
         },
         
@@ -141,7 +141,7 @@
             "color":"gray" //Choices: gray, red, green, blue
         },
         
-        "roles":["DISCORD_ROLE_ID"],
+        "roles":["1142220908942073918"],
         "mode":"add&remove OR remove OR add", //What to do with the roles. Choices: add&remove, add, remove
         "removeRolesOnAdd":["DISCORD_ROLE_ID"], //Remove these old roles when new roles are added.
         "addOnMemberJoin":false //Add these roles automatically when joining the server.
