@@ -27,8 +27,8 @@
     "mainColor":"#f8ba00", //Hex color used in most embeds
     "language":"english", //Visit README.md for list
     "prefix":"!ticket ", //Prefix used in text commands
-    "serverId":"1136030054271422534",
-    "globalAdmins":["1035160059447091291"], //Have access to all commands
+    "serverId":"",
+    "globalAdmins":[""], //Have access to all commands
     
     /* Enable/disable text or slash commands. */
     "slashCommands":true,
@@ -46,7 +46,7 @@
     /* Send ticket logs to a channel or in DM of the ticket creator. */
     "logs":{
         "enabled":true,
-        "channel":"1147665618003304549",
+        "channel":"",
         "logMessages":{
             "creation":{"dm":false,"logs":true},
             "closing":{"dm":false,"logs":true},
@@ -124,18 +124,18 @@
         /* Move closed tickets to a separate category. */
         "closedCategory":{
             "enabled":false,
-            "categoryId":"1147665601473560746"
+            "categoryId":""
         },
         
         /* Create tickets in a backup category when the original category exceeds 50 channels. */
         "backupCategory":{
             "enabled":false,
-            "categoryId":"1147665601473560746"
+            "categoryId":""
         },
         
         /* Move claimed tickets to a matching category of the user that claimed the ticket. Set to empty list [] to disable. */
         "claimedCategories":[
-            {"user":"1035160059447091291","category":"1147665601473560746"}
+            {"user":"","category":""}
         ]
     },
     
