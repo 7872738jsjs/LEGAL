@@ -78,7 +78,7 @@
                 /* Customise the user & role mentions of this ticket message. */
                 "@here":true,
                 "@everyone":false,
-                "custom":["DISCORD_ROLE_ID"]
+                "custom":["1142220908942073918"]
             }
         },
         "autoclose":{
@@ -142,8 +142,8 @@
         },
         
         "roles":["1142220908942073918"],
-        "mode":"add&remove OR remove OR add", //What to do with the roles. Choices: add&remove, add, remove
-        "removeRolesOnAdd":["DISCORD_ROLE_ID"], //Remove these old roles when new roles are added.
+        "mode":"add&remove", //What to do with the roles. Choices: add&remove, add, remove
+        "removeRolesOnAdd":["1142220908942073918"], //Remove these old roles when new roles are added.
         "addOnMemberJoin":false //Add these roles automatically when joining the server.
     },
     {
