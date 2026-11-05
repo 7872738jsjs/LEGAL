@@ -18,16 +18,16 @@
         "enableCreatorDM":true,
         "enableParticipantDM":true,
         "enableActiveAdminDM":true,
-        "enableEveryAdminDM":true,
+        "enableEveryAdminDM":false,
         
-        "channel":"11147665608821964910", //Where to send transcripts. Leave empty when disabled.
+        "channel":"1147665618003304549", //Where to send transcripts. Leave empty when disabled.
         "mode":"html" //The type of transcript to use. Choices: html, text
     },
     "embedSettings":{
         /* Customise the embed which contains the generated transcript file or URL. */
         "customColor":"#f8ab00", //Leave empty to use default color
-        "listAllParticipants":false,
-        "includeTicketStats":false
+        "listAllParticipants":true,
+        "includeTicketStats":true
     },
     "textTranscriptStyle":{
         /* Customise layout of the text transcripts. */
@@ -44,14 +44,14 @@
     "htmlTranscriptStyle":{
         /* Customise layout of the HTML transcripts. */
         "background":{
-            "enableCustomBackground":false,
-            "backgroundColor":"#f8ba00", //Leave empty to use Open Ticket color (#f8ba00)
-            "backgroundImage":"https://www.example.com/image.png" //Image URL to fill entire background. Leave empty to disable
+            "enableCustomBackground":true,
+            "backgroundColor":"#f8ab00", //Leave empty to use Open Ticket color (#f8ba00)
+            "backgroundImage":"" //Image URL to fill entire background. Leave empty to disable
         },
         "header":{
-            "enableCustomHeader":false,
+            "enableCustomHeader":true,
             "backgroundColor":"#202225",
-            "decoColor":"#f8ba00",
+            "decoColor":"#f8ab00",
             "textColor":"#ffffff"
         },
         "stats":{
