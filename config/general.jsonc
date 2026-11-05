@@ -28,7 +28,7 @@
     "language":"english", //Visit README.md for list
     "prefix":"!ticket ", //Prefix used in text commands
     "serverId":"1136030054271422534",
-    "globalAdmins":["1142220908942073918"], //Have access to all commands
+    "globalAdmins":["1227815813658968136"], //Have access to all commands
     
     /* Enable/disable text or slash commands. */
     "slashCommands":true,
@@ -45,7 +45,7 @@
     
     /* Send ticket logs to a channel or in DM of the ticket creator. */
     "logs":{
-        "enabled":true,
+        "enabled":false,
         "channel":"1147665618003304549",
         "logMessages":{
             "creation":{"dm":false,"logs":true},
@@ -134,8 +134,8 @@
         },
         
         /* Move claimed tickets to a matching category of the user that claimed the ticket. Set to empty list [] to disable. */
-        "claimedCategories":[
-            {"user":"1035160059447091291","category":"1147665601473560746"}
+        "claimedCategories":[]
+            {"user":"","":""}
         ]
     },
     
