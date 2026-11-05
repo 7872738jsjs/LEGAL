@@ -28,7 +28,7 @@
     "language":"english", //Visit README.md for list
     "prefix":"!ticket ", //Prefix used in text commands
     "serverId":"1136030054271422534",
-    "globalAdmins":["DISCORD_ROLE_ID"], //Have access to all commands
+    "globalAdmins":["1136035491880382615"], //Have access to all commands
     
     /* Enable/disable text or slash commands. */
     "slashCommands":true,
@@ -124,18 +124,18 @@
         /* Move closed tickets to a separate category. */
         "closedCategory":{
             "enabled":false,
-            "categoryId":"DISCORD_CATEGORY_ID"
+            "categoryId":"1147665601473560746"
         },
         
         /* Create tickets in a backup category when the original category exceeds 50 channels. */
         "backupCategory":{
             "enabled":false,
-            "categoryId":"DISCORD_CATEGORY_ID"
+            "categoryId":"1147665601473560746"
         },
         
         /* Move claimed tickets to a matching category of the user that claimed the ticket. Set to empty list [] to disable. */
         "claimedCategories":[
-            {"user":"DISCORD_USER_ID","category":"DISCORD_CATEGORY_ID"}
+            {"user":"1035160059447091291","category":"1147665601473560746"}
         ]
     },
     
@@ -150,7 +150,7 @@
     "permissions":{
         "help":"everyone",
         "panel":"admin",
-        "ticket":"none",
+        "ticket":"1136035491880382615",
         "close":"everyone",
         "delete":"admin",
         "reopen":"everyone",
