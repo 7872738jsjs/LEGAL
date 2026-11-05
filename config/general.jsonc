@@ -27,7 +27,7 @@
     "mainColor":"#f8ba00", //Hex color used in most embeds
     "language":"english", //Visit README.md for list
     "prefix":"!ticket ", //Prefix used in text commands
-    "serverId":"1567623383582114004",
+    "serverId":"1136030054271422534",
     "globalAdmins":["DISCORD_ROLE_ID"], //Have access to all commands
     
     /* Enable/disable text or slash commands. */
