@@ -1,12 +1,3 @@
-/*
- * OPEN TICKET BUTTON OPTIONS
- * ----------------------------------------------
- * Create customizable ticket, website, reaction-role or sub-panel button options.
- * Up to 25 options can be added to each panel in (config/panels.jsonc)
- * There are 4 types of options available: ticket, website, role, sub-panel
- * 
- * TIP: Create new options by copying everything between and including the {...} brackets of an option. Paste it after the last option and make sure that they are seperated by a comma.
- */
 [
     {
         /* A ticket option creates a button to open a ticket. */
@@ -101,65 +92,3 @@
             "cooldownMinutes":10
         },
         "limits":{
-            /* Set the maximum amount of simultaneous tickets of this option. */
-            "enabled":false,
-            "globalMaximum":20,
-            "userMaximum":3
-        },
-        "slowMode":{
-            /* Enable slow-mode in the ticket channel. */
-            "enabled":false,
-            "slowModeSeconds":20
-        }
-    },
-    {
-        /* A website option creates a button with a URL to an external website. */
-        "id":"example-website",
-        "name":"Website",
-        "description":"Take a look at our amazing website.", //Leave empty to disable
-        "type":"website",
-        
-        "button":{
-            /* Configure the button style of this option. At least one of "emoji" or "label" must be provided. */
-            "emoji":"😃",
-            "label":"Visit Website"
-        },
-        
-        "url":"https://www.dj-dj.be"
-    },
-    {
-        /* A reaction-role option creates a button for members to choose roles. */
-        "id":"example-role",
-        "name":"Update Ping",
-        "description":"Receive notifications about updates in our server.", //Leave empty to disable
-        "type":"role",
-        
-        "button":{
-            /* Configure the button style of this option. At least one of "emoji" or "label" must be provided. */
-            "emoji":"📢",
-            "label":"Update Ping",
-            "color":"gray" //Choices: gray, red, green, blue
-        },
-        
-        "roles":["1142220908942073918"],
-        "mode":"add&remove", //What to do with the roles. Choices: add&remove, add, remove
-        "removeRolesOnAdd":["1142220908942073918"], //Remove these old roles when new roles are added.
-        "addOnMemberJoin":false //Add these roles automatically when joining the server.
-    },
-    {
-        /* A sub-panel option creates a button which sends another panel for additional options. */
-        "id":"example-sub-panel",
-        "name":"Example Sub-Panel",
-        "description":"This is an example of how to implement a sub-panel in Open Ticket.", //Leave empty to disable
-        "type":"sub-panel",
-        
-        "button":{
-            /* Configure the button style of this option. At least one of "emoji" or "label" must be provided. */
-            "emoji":"📋",
-            "label":"Sub-Panel Example",
-            "color":"gray" //Choices: gray, red, green, blue
-        },
-        
-        "subPanelId":"example-panel" //Choose a panel ID from (config/panels.jsonc)
-    }
-]
