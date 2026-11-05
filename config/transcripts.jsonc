@@ -20,7 +20,7 @@
         "enableActiveAdminDM":true,
         "enableEveryAdminDM":true,
         
-        "channel":"1147665618003304549", //Where to send transcripts. Leave empty when disabled.
+        "channel":"11147665608821964910", //Where to send transcripts. Leave empty when disabled.
         "mode":"html" //The type of transcript to use. Choices: html, text
     },
     "embedSettings":{
